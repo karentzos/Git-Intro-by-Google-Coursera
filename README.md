@@ -7,8 +7,8 @@ B. If you change sth directly from the web-repo use the command :  "git pull" di
    However, be careful of how you use it.
    
 C. Create localy a new directory: 
-   mkdir checks
-   cd checks
-   git init.   (Initialized empty Git repository in /Users/karentzos/Desktop/GitAll/Git-Intro-by-Google-Coursera/checks/.git/)
+   mkdir checks //
+   cd checks //
+   git init   (Initialized empty Git repository in /Users/karentzos/Desktop/GitAll/Git-Intro-by-Google-Coursera/checks/.git/)
    
    
