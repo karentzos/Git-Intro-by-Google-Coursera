@@ -14,7 +14,7 @@ C. Create localy a new directory:
    
    * if you want to unstage the cached file use the command : "git rm --cached <file>"
    
-D. In order to COMMIT it use the command "git push origin master"
+D. In order to COMMIT it use the command git commit -m "your message" and then the command : git push origin master
    
    
 
