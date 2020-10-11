@@ -16,7 +16,9 @@ C. Create localy a new directory:
    
    * If you have modified a file  : git checkout -- "filename" will discard any changes of the working directory!
    * If you have already stage it : git reset HEAD "filename" to unstage it! 
-    ---- 
+    
+    ----
+    
    * if you want to unstage the cached file use the command : "git rm --cached 'file' "
    * if you want to unstage a full directory after a "git rm" use the command : git reset HEAD <file>
    
