@@ -13,6 +13,7 @@ C. Create localy a new directory:
    Copy a file in it and then use the command: "git add <filename>" or "git add ." (. = all) to stage it. 
    
    * if you want to unstage the cached file use the command : " git rm --cached 'file' "
+   * if you want to unstage a full directory after a "git rm" use the command : git reset HEAD <file>
    
 D. In order to COMMIT it use the command git commit -m "your message" and then the command : git push origin master
    
