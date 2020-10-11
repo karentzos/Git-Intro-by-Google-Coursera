@@ -24,6 +24,6 @@ C. Create localy a new directory:
    
 D. In order to COMMIT it use the command git commit -m "your message" and then the command : git push origin master/main
    
-   
+E. Use "git config -l" in order to check our current configuration.    
 
    
