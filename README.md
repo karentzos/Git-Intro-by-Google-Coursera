@@ -28,4 +28,7 @@ E. Use "git config -l" in order to check our current configuration.
 
 F. Anatomy of a Commit Message : use the "git log" to check the commit messages!
 
-   
+G. Correct the error of the unpopulated submodule dirname. 
+   On the most of the cases this error appears when you suddenly lose the .git file from the specific directory.
+   Use "git rm --cached . -rf" inside the problematic directory.
+
