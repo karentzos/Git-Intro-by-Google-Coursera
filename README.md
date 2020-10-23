@@ -32,3 +32,17 @@ G. Correct the error of the unpopulated submodule dirname.
    On the most of the cases this error appears when you suddenly lose the .git file from the specific directory.
    Use "git rm --cached . -rf" inside the problematic directory.
 
+H. Playing with branches:
+
+git branch                  : check the branches
+git branch new-name         : create new name
+git checkout new-name       : navigate to the new branch
+git checkout -b new-name    : create new branch and navigate to it. 
+git branch -d new-name      : delete selected branch (if there isn't any changes, or merged)
+git branch -D new-name      : force delete selected branch (if the changes aren't merged you can use this command)
+
+   MERGING:
+	combine data + history
+        git merge new-name (checkout to master firstly)
+
+ 
